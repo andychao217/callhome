@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/absmach/callhome"
-	"github.com/absmach/callhome/mocks"
+	"github.com/andychao217/callhome"
+	"github.com/andychao217/callhome/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"go.opentelemetry.io/otel/trace"

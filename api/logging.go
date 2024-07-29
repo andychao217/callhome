@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/absmach/callhome"
+	"github.com/andychao217/callhome"
 )
 
 var _ callhome.Service = (*loggingMiddleware)(nil)

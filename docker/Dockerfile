@@ -6,7 +6,7 @@ ARG VERSION
 ARG COMMIT
 ARG TIME
 
-WORKDIR /go/src/github.com/absmach/callhome
+WORKDIR /go/src/github.com/andychao217/callhome
 COPY . .
 RUN apk update \
     && apk add make\
@@ -17,5 +17,5 @@ FROM scratch
 # Certificates are needed so that mailing util can work.
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 COPY --from=builder /exe /
-COPY --from=builder /go/src/github.com/absmach/callhome/web /web
+COPY --from=builder /go/src/github.com/andychao217/callhome/web /web
 ENTRYPOINT ["/exe"]

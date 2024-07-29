@@ -3,7 +3,7 @@ package mocks
 import (
 	"context"
 
-	"github.com/absmach/callhome"
+	"github.com/andychao217/callhome"
 	"github.com/stretchr/testify/mock"
 )
 

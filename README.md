@@ -37,8 +37,8 @@ Data collection is on by default and can be disabled by setting the env variable
 
 By utilizing Magistrala, you actively contribute to its improvement. Together, we can build a more robust and efficient IoT platform. Thank you for your trust in Magistrala!
 
-[grc]: https://goreportcard.com/badge/github.com/absmach/callhome
-[build]: https://github.com/absmach/callhome/actions/workflows/ci.yml/badge.svg
+[grc]: https://goreportcard.com/badge/github.com/andychao217/callhome
+[build]: https://github.com/andychao217/callhome/actions/workflows/ci.yml/badge.svg
 [LIC]: LICENCE
 [LIC-BADGE]: https://img.shields.io/badge/License-Apache_2.0-blue.svg
 [website]: https://deployments.magistrala.io

@@ -1,9 +1,8 @@
-module github.com/absmach/callhome
+module github.com/andychao217/callhome
 
 go 1.21.5
 
 require (
-	github.com/absmach/magistrala v0.0.0-20240116122552-fe97de024cf0
 	github.com/caarlos0/env/v7 v7.1.0
 	github.com/go-kit/kit v0.13.0
 	github.com/go-zoo/bone v1.3.0

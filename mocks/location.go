@@ -3,7 +3,7 @@ package mocks
 import (
 	"context"
 
-	"github.com/absmach/callhome"
+	"github.com/andychao217/callhome"
 	ip2location "github.com/ip2location/ip2location-go/v9"
 	mock "github.com/stretchr/testify/mock"
 )

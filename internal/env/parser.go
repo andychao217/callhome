@@ -1,7 +1,7 @@
 package env
 
 import (
-	"github.com/absmach/callhome/internal/server"
+	"github.com/andychao217/callhome/internal/server"
 	"github.com/caarlos0/env/v7"
 )
 

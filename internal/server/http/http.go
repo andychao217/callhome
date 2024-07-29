@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	mfserver "github.com/absmach/callhome/internal/server"
+	mfserver "github.com/andychao217/callhome/internal/server"
 )
 
 const (

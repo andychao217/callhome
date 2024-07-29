@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/absmach/callhome"
-	"github.com/absmach/magistrala"
+	"github.com/andychao217/callhome"
+	"github.com/andychao217/magistrala"
 )
 
 var (
